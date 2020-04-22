@@ -66,6 +66,10 @@ class LiveDataViewModel(
         return date.toString()
     }
 
+    private fun unusedMethod() {
+        val unused = 5
+    }
+
     companion object {
         // Real apps would use a wrapper on the result type to handle this.
         const val LOADING_STRING = "Loading..."
