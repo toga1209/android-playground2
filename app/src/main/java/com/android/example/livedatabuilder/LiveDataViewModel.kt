@@ -69,7 +69,7 @@ class LiveDataViewModel(
 
     @Suppress("MagicNumber")
     private fun unusedMethod() {
-        val unused = 5
+        val unused = 6
     }
 
     companion object {
