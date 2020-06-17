@@ -60,10 +60,16 @@ class LiveDataViewModel(
     }
 
     // Simulates a long-running computation in a background thread
+    @Suppress("MagicNumber")
     private suspend fun timeStampToTime(timestamp: Long): String {
         delay(500)  // Simulate long operation
         val date = Date(timestamp)
         return date.toString()
+    }
+
+    @Suppress("MagicNumber")
+    private fun unusedMethod() {
+        val unused = 6
     }
 
     companion object {
