@@ -27,6 +27,7 @@ import kotlinx.coroutines.withContext
 /**
  * A source of data for [LiveDataViewModel], showcasing different LiveData + coroutines patterns.
  */
+@Suppress("MagicNumber")
 class DefaultDataSource(private val ioDispatcher: CoroutineDispatcher) : DataSource {
 
     /**
